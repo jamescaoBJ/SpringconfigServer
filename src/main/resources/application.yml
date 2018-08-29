@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: myconfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://gogs.weeho.cn/git/configServer.git
+          search-paths: config-repo
+          username: caoyg
+          password: 123456
+server:
+  port: 9091          
+debug: false

@@ -5,10 +5,10 @@ spring:
     config:
       server:
         git:
-          uri: http://gogs.weeho.cn/git/configServer.git
+          uri: https://github.com/jamescaoBJ/systemParameterConfig.git
           search-paths: config-repo
-          username: caoyg
-          password: 123456
+          username: caoyange0412@163.com
+          password: 1qaz2wsx!@#$%6789
 server:
   port: 9091          
 debug: false
